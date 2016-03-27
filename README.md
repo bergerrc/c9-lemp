@@ -1,7 +1,7 @@
 # c9-lemp
 
 This repo holds all the script, config files and commands you might want to
-use to set up a LEMP environment using NGINX and PHP-FPM instead the defaul
+use to set up a LEMP environment using NGINX and PHP-FPM (PHP5) instead the defaul
 Apache2 runner for PHP applications on Cloud9 workspaces.
 
 ### Prerequisite
@@ -13,11 +13,11 @@ Setup a c9 workspace using the Apache, PHP5 and MySQL template
 Run any of this commands straightaway on your c9 terminal.
 
 ``` bash
-curl -L https://raw.githubusercontent.com/GabrielGil/c9-lemp/master/install.sh | bash
+curl -L https://raw.githubusercontent.com/bergerrc/c9-lemp/master/install.sh | bash
 ```
 ----
 ``` bash
-wget -O - https://raw.githubusercontent.com/GabrielGil/c9-lemp/master/install.sh | bash
+wget -O - https://raw.githubusercontent.com/bergerrc/c9-lemp/master/install.sh | bash
 ```
 
 After completing this process your environment will be also provisioned with a
